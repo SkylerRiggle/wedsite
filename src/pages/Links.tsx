@@ -3,8 +3,19 @@ import '../styles/App.css';
 
 function Links() {
   return (
-    <div>
+    <div className='red-background'>
       <p>Links</p>
+
+      <div className='dual-column'>
+        <div>
+          <a href="">Registry</a>
+        </div>
+
+        <div>
+          <a href="">Photos</a>
+        </div>
+      </div>
+
     </div>
   );
 }

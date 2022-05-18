@@ -5,9 +5,9 @@ import Signatures from '../images/dog.jpg'
 
 function Header() {
   return (
-    <div>
-      <p>Welcome to our Wedsite!</p>
-      <img src={Signatures} alt="Signatures" />
+    <div className='head-background'>
+      <p className='title'>Welcome to our Wedsite!</p>
+      <img src={Signatures} alt="Signatures"/>
     </div>
   );
 }

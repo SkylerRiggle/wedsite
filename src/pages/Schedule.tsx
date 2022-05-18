@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 function Schedule() {
   return (
-    <div>
+    <div className='bw-background'>
       <p>Schedule</p>
     </div>
   );

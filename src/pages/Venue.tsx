@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 function Venue() {
   return (
-    <div>
+    <div className='red-background'>
       <p>Venue</p>
     </div>
   );

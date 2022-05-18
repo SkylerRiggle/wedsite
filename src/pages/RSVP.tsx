@@ -3,8 +3,8 @@ import '../styles/App.css';
 
 function RSVP() {
   return (
-    <div>
-      <p>RSVP</p>
+    <div className='bw-background'>
+      <p className='title'>RSVP</p>
       <p>If you can attend, we are excited to see you on our wedding day! 
         Please let us know the number of attendees we will need to prepare for.</p>
       <p>Please let us know ASAP if you cannot attend. We would like a head count by August 1st to prepare food and the venue 

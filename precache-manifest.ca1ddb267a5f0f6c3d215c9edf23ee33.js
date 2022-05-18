@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/wedsite/static/media/dog.3c460b6a.jpg"
   },
   {
-    "revision": "fd4b39a858f485a4360a538af21c881c",
+    "revision": "613a7e5f1d0d3ca84733d31c382f2549",
     "url": "/wedsite/index.html"
   }
 ];

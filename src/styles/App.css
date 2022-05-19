@@ -24,8 +24,8 @@
 
   height: 855px;
 
-  text-shadow: -1px -1px rgb(255, 250, 240), 1px 1px rgb(255, 215, 135),
-  1px -1px rgb(255, 250, 240), -1px 1px rgb(255, 170, 0);
+  text-shadow: -1px -1px white, 1px 1px white,
+  1px -1px white, -1px 1px white;
 }
 
 .bw-background {
@@ -53,7 +53,7 @@
   font-size: 48pt;
 }
 
-@media only screen and (max-width: 1079px) {
+@media only screen and (max-width: 1329px) {
   .head-background {
     background-size: auto 855px;
   }

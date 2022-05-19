@@ -8,8 +8,9 @@ import Sunflower from '../images/sunflower.png'
 
 function Links() {
   return (
-    <div className='red-background'>
-      <p className='title' style={{backgroundColor:'rgb(100, 0, 0)', marginBottom:'2vw', borderBottom:'5px solid goldenrod'}}>Links</p>
+    <div className='link-background'>
+      <p className='title' style={{backgroundColor:'#4F7565', 
+      marginBottom:'2vw', borderBottom:'5px solid goldenrod'}}>~ Links ~</p>
 
       <div className='dual-column'>
         <div style={{width:'50%'}}>

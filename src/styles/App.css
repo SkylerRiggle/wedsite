@@ -59,6 +59,46 @@ a {
   font-size: 48pt;
 }
 
+.imageLinks {
+  transition: 0.5s;
+  width: 25%;
+  border-radius: 5%;
+  border: 2px solid goldenrod;
+  background-color: rgb(70, 0, 0);
+  box-shadow: 0 0 10px 2px black;
+}
+
+.imageLinks:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 1px black;
+}
+
+.imageLinks:active {
+  border-radius: 50%;
+}
+
+.labelLink {
+  text-decoration: none;
+  color: white;
+  font-size: 18pt;
+  transform: translate(0, 1vw)
+}
+
+.labelLink:hover {
+  text-decoration: none;
+  color: wheat;
+}
+
+.labelLink:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.labelLink:active {
+  text-decoration: none;
+  color: goldenrod;
+}
+
 @media only screen and (max-width: 1329px) {
   .head-background {
     background-size: auto 855px;

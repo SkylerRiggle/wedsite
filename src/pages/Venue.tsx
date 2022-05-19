@@ -4,11 +4,11 @@ import '../styles/App.css';
 function Venue() {
   return (
     <div className='red-background'>
-      <p className='title'>Venue</p>
+      <p className='title' style={{fontSize:'6vw'}}>Venue</p>
       <div className='dual-column'>
-        <div style={{width:'50%'}}>
+        <div style={{width:'50%', textAlign:'left', margin:'5%', fontSize:'2.5vw'}}>
           <p>The Wedding will be held at</p>
-          <p>Wintersmith Lodge in Ada OK</p>
+          <p>Wintersmith Lodge in Ada OK:</p>
           <br />
 
           <p>Wintersmith Lodge,</p>
@@ -16,7 +16,9 @@ function Venue() {
           <p>Ada, OK 74820</p>
           <br />
 
-          <p></p>
+          <p>Parking can be around the park</p>
+          <p>or in the water park parking lot</p>
+          <p>across the street from the venue.</p>
         </div>
 
         <div style={{width:'50%'}}>

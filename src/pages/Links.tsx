@@ -15,7 +15,6 @@ function Links() {
           <a href="">Photos</a>
         </div>
       </div>
-
     </div>
   );
 }

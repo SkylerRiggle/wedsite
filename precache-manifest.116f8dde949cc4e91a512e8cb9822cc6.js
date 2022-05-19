@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "46f97d39df7f0be9d1cf",
-    "url": "/wedsite/static/css/main.cd60f0de.chunk.css"
+    "revision": "33fb6d656fb65f5f9f12",
+    "url": "/wedsite/static/css/main.54cd226d.chunk.css"
   },
   {
-    "revision": "46f97d39df7f0be9d1cf",
-    "url": "/wedsite/static/js/main.46f97d39.chunk.js"
+    "revision": "33fb6d656fb65f5f9f12",
+    "url": "/wedsite/static/js/main.33fb6d65.chunk.js"
   },
   {
-    "revision": "cf4006990074e7ea3fc9",
-    "url": "/wedsite/static/js/1.cf400699.chunk.js"
+    "revision": "70acc3d054f841a12de8",
+    "url": "/wedsite/static/js/1.70acc3d0.chunk.js"
   },
   {
     "revision": "3adc5384745034c0d7df",
@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "/wedsite/static/media/twohands.2e936c9a.jpg"
   },
   {
+    "revision": "c59a91b254ac7fdbf54d5dd6f3a37a19",
+    "url": "/wedsite/static/media/bwflower.c59a91b2.png"
+  },
+  {
     "revision": "c12c507edd2b6e42aff3661308bc3763",
     "url": "/wedsite/static/media/signature.c12c507e.png"
   },
@@ -28,7 +32,7 @@ self.__precacheManifest = [
     "url": "/wedsite/static/media/sunflower.11d02e89.png"
   },
   {
-    "revision": "4d4745d306f9b2a4b50e8297138cb6a5",
+    "revision": "14f4371079cb7ba5134ab9e3e71b4f92",
     "url": "/wedsite/index.html"
   }
 ];

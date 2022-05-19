@@ -1,17 +1,34 @@
 import React from 'react';
 import '../styles/App.css';
+import Flower from '../images/bwflower.png'
 
 function RSVP() {
   return (
-    <div className='bw-background'>
-      <p className='title'>RSVP</p>
-      <p>If you can attend, we are excited to see you on our wedding day! 
-        Please let us know the number of attendees we will need to prepare for.</p>
-      <p>Please let us know ASAP if you cannot attend. We would like a head count by August 1st to prepare food and the venue 
-        accordingly to the attendants we are expecting.</p>
-      <p>To RSVP, please mail back your RSVP card or contact Malorie by phone at: <a href="tel: 405-287-7979">(405)287-7979</a> or 
-      by email at: <a href="mailto: malorielarman@gmail.com">malorielarman@gmail.com</a></p>
-      
+    <div className='bw-background' style={{marginTop:'5vw', position:'relative', zIndex:'-1'}}>
+      <div style={{width:'25%', height:'30vw'}}>
+        <img src={Flower} alt="flower" style={{width:'40vw', transform:'rotate(-90deg) translate(20vw, -14vw)'}}/>
+        <img src={Flower} alt="flower" style={{width:'35vw', transform:'rotate(160deg) translate(3vw, 28vw)'}}/>
+      </div>
+
+      <div style={{width:'75%', textAlign:'right', marginRight:'2%'}}>
+        <p className='title' style={{fontSize:'4vw'}}>YOU'RE INVITED!</p>
+        <br />
+        <p className='title' style={{fontSize:'7vw'}}>Malorie & Skyler</p>
+
+        <div style={{fontWeight:'bolder', fontSize:'3vw'}}>
+          <p>REQUEST THE HONOR OF YOUR PRESENCE AT</p>
+          <p>THEIR MATRIMONY ON OCTOBER 15, 2022 AT</p>
+          <p>2 PM AT THE WINTERSMITH LODGE</p>
+          <br />
+        </div>
+
+        <div style={{fontWeight:'regular', fontSize:'2.5vw'}}>
+          <p>CONTACT MALORIE AT</p>
+          <p><a href="tel: 405-287-7979">(405)287-7979</a> OR <a href="mailto: malorielarman@gmail.com">
+            malorielarman@gmail.com</a> OR</p>
+          <p>MAIL BACK YOUR INVITATION TO RSVP</p>
+        </div>
+      </div>
     </div>
   );
 }

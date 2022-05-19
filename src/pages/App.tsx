@@ -18,7 +18,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <div style={{backgroundColor:'#5F8575', height:'2.5vw', backgroundImage:'url('+Sunflower+')', 
-      backgroundSize:'auto 2vw', backgroundRepeat:'repeat-x', backgroundPosition:'center'}}>
+      backgroundSize:'auto 2vw', backgroundRepeat:'repeat-x', backgroundPosition:'center',
+      borderTop:'2px solid goldenrod', borderBottom:'2px solid goldenrod'}}>
         <img src={Signatures} alt="signatures" 
         style={{width:'10%', backgroundColor:'white', boxShadow:'0 0 5px 0 black',
         borderRadius:'50%', border:'5px solid goldenrod', position:'relative', bottom:'4vw'}}/>

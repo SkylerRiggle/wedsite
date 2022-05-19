@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  color:rgb(174, 33, 33);
+}
+
 .App {
   text-align: center;
   width: 100%;
@@ -30,6 +34,7 @@
 
 .bw-background {
   background-color: white;
+  display: flex;
   color: black;
 }
 

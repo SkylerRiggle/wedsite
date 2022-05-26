@@ -1,7 +1,7 @@
 {
-  "main.css": "/wedsite/static/css/main.899f71a1.chunk.css",
-  "main.js": "/wedsite/static/js/main.e84000f7.chunk.js",
-  "main.js.map": "/wedsite/static/js/main.e84000f7.chunk.js.map",
+  "main.css": "/wedsite/static/css/main.4d44dc8b.chunk.css",
+  "main.js": "/wedsite/static/js/main.3e4b8796.chunk.js",
+  "main.js.map": "/wedsite/static/js/main.3e4b8796.chunk.js.map",
   "static/js/1.2f8eb99d.chunk.js": "/wedsite/static/js/1.2f8eb99d.chunk.js",
   "static/js/1.2f8eb99d.chunk.js.map": "/wedsite/static/js/1.2f8eb99d.chunk.js.map",
   "runtime~main.js": "/wedsite/static/js/runtime~main.3adc5384.js",
@@ -11,8 +11,8 @@
   "static/media/signature.png": "/wedsite/static/media/signature.c12c507e.png",
   "static/media/gift.jpg": "/wedsite/static/media/gift.401ad481.jpg",
   "static/media/blanket.jpg": "/wedsite/static/media/blanket.93caa92d.jpg",
-  "static/css/main.899f71a1.chunk.css.map": "/wedsite/static/css/main.899f71a1.chunk.css.map",
+  "static/css/main.4d44dc8b.chunk.css.map": "/wedsite/static/css/main.4d44dc8b.chunk.css.map",
   "index.html": "/wedsite/index.html",
-  "precache-manifest.61b94e53489bece249b53499d9d83d5c.js": "/wedsite/precache-manifest.61b94e53489bece249b53499d9d83d5c.js",
+  "precache-manifest.7edb79fca94774e1eb07d8a4cffd43f1.js": "/wedsite/precache-manifest.7edb79fca94774e1eb07d8a4cffd43f1.js",
   "service-worker.js": "/wedsite/service-worker.js"
 }

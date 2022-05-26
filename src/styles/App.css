@@ -10,6 +10,7 @@
 
 a {
   color: rgb(200, 0, 0);
+  z-index: 99;
 }
 
 .fancy-title {
@@ -33,9 +34,10 @@ a {
 .header {
   background-image: url('../images/twohands.jpg'), 
   radial-gradient(rgba(255, 238, 178, 0.05), rgba(255, 238, 178, 0.15)),
-  linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 25, 0, 0.35));
+  linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 25, 0, 0.35)),
+  linear-gradient(transparent, 85%, black);
   background-blend-mode: overlay;
-
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -54,7 +56,6 @@ a {
   padding-top: 5vw;
   padding-bottom: 2vw;
   position: relative;
-  z-index: -1;
 }
 
 /** Schedule **/
@@ -195,7 +196,7 @@ a {
 /** Small Screen **/
 @media only screen and (max-width: 1329px) {
   .header {
-    background-size: auto 855px;
+    background-size: auto 875px;
   }
 
   .overlay-text {

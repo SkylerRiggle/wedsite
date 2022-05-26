@@ -6,7 +6,7 @@ function RSVP() {
   return (
     <div className='rsvp-background' id='rsvp'>
       <div className='dual-column'>
-        <div style={{width:'25%', height:'30vw'}}>
+        <div style={{width:'25%', height:'30vw', zIndex:'-1'}}>
           <img src={Flower} alt="flower" style={{width:'40vw', transform:'rotate(-90deg) translate(20vw, -14vw)'}}/>
           <img src={Flower} alt="flower" style={{width:'35vw', transform:'rotate(160deg) translate(3vw, 28vw)'}}/>
         </div>
@@ -30,7 +30,6 @@ function RSVP() {
             <p>MAIL BACK YOUR INVITATION TO RSVP</p>
           </div>
         </div>
-        
       </div>
     </div>
   );

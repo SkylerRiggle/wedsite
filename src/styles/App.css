@@ -90,6 +90,46 @@ a {
   font-weight: 600;
 }
 
+/** Venue **/
+.venue-background {
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.line {
+  background-color: black;
+  width: 50%;
+  height: 2px;
+  margin-top: 20px;
+}
+
+.map {
+  width: 45%;
+  height: 45vw;
+  max-height: 600px;
+  max-width: 600px;
+  border: 1px solid black;
+}
+
+.address-box {
+  width: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  background-color: red;
+  font-size: 14pt;
+  display: flex;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-right: 0 solid transparent;
+  background: linear-gradient(160deg, rgba(0, 0, 0, 0.15), transparent);
+}
+
 /** FAQ **/
 .q-card {
   width: 40%;

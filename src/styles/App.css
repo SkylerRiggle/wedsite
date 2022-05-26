@@ -192,7 +192,8 @@ a {
 /** Small Screen **/
 @media only screen and (max-width: 1329px) {
   .header {
-    background-size: auto 875px;
+    background-size: auto 650px;
+    height: 600px;
   }
 
   .overlay-text {

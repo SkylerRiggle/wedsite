@@ -31,10 +31,9 @@ a {
 
 /** Header **/
 .header {
-  background: black;
   background: url('../images/twohands.jpg'),
   linear-gradient(transparent, 85%, black);
-  background-blend-mode: overlay;
+
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

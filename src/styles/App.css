@@ -33,6 +33,7 @@ a {
 .header {
   background: url('../images/twohands.jpg'),
   linear-gradient(transparent, 85%, black);
+  background-attachment: fixed;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
@@ -194,6 +195,7 @@ a {
   .header {
     background-size: auto 650px;
     height: 600px;
+    background-attachment: scroll;
   }
 
   .overlay-text {

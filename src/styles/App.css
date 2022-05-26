@@ -84,11 +84,20 @@ a {
   background-color: #425973;
 }
 
+.dark {
+  background-color: #00162e;
+  padding: 2%;
+  font-weight: 600;
+}
+
 /** FAQ **/
 .q-card {
   width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #425973;
+  border: 2px solid #00162e;
+  font-size: 14pt;
 }
 
 /** Extra Links **/

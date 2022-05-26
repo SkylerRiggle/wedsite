@@ -3,22 +3,24 @@ import '../styles/App.css';
 
 function FAQ() {
   return (
-    <div className='gray-background'>
-      <p className='title'>FAQ</p>
-      <p>Frequently Asked Questions</p>
+    <div className='solid-background' id='faq'>
+      <p>FAQ</p>
 
       <div className='dual-column'>
         <div>
           <p>QUESTION</p>
+          <p>-</p>
           <p>ANSWER</p>
         </div>
 
         <div>
-          <p>QUESTION</p>
-          <p>ANSWER</p>
+          <div>
+            <p>QUESTION</p>
+            <p>-</p>
+            <p>ANSWER</p>
+          </div>
         </div>
       </div>
-
     </div>
   );
 }

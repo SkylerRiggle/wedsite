@@ -1,23 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 
+/** Universal **/
 * {
-  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color:rgb(174, 33, 33);
+.fancy-title {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 48pt;
 }
 
-.App {
-  text-align: center;
-  overflow: hidden;
+.dual-column {
+  display: flex;
   width: 100%;
-  height: 100%;
 }
 
-.head-background {
+.solid-background {
+  background-color: #212d3b;
+  text-align: center;
+}
+
+/** Header **/
+.header {
   background-image: url('../images/twohands.jpg'), 
   radial-gradient(rgba(255, 238, 178, 0.05), rgba(255, 238, 178, 0.15)),
   linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 25, 0, 0.35));
@@ -28,90 +36,68 @@ a {
   background-size: 100%;
 
   height: 855px;
+  text-align: center;
+  padding-top: 6vw;
 
   text-shadow: -1px -1px white, 1px 1px white,
   1px -1px white, -1px 1px white;
 }
 
-.link-background {
-  background-image: url('../images/blanket.jpg'), 
-  radial-gradient(rgba(0, 0, 0, 0.15), black);
-  background-blend-mode: overlay;
-
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100%;
-
-  height: 100%;
-  color: white;
+/** RSVP **/
+.rsvp-background {
+  background: linear-gradient(160deg, rgba(0, 0, 0, 0.15), transparent);
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+  position: relative;
+  z-index: -1;
 }
 
-.bw-background {
-  background-color: white;
-  display: flex;
-  color: black;
+/** Extra Links **/
+.link-box {
+  width: 45%;
+  padding: 2.5%;
+  position: relative;
 }
 
-.red-background {
-  background: radial-gradient(rgb(160, 0, 0), maroon);
-  box-shadow: 0 0 10px 5px black;
-  color: goldenrod;
-}
-
-.gray-background {
-  background: radial-gradient(rgb(24, 24, 24), black);
-  color: white;
-}
-
-.dual-column {
-  display: flex;
-}
-
-.title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 48pt;
-}
-
-.imageLinks {
+.link-image {
+  width: 100%;
+  border: 1px solid black;
+  opacity: 0.75;
   transition: 0.25s;
-  width: 25%;
-  border-radius: 5%;
-  border: 2px solid goldenrod;
-  background-color: rgb(70, 0, 0);
-  box-shadow: 0 0 10px 2px black;
 }
 
-.imageLinks:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px 1px black;
+.link-image:hover {
+  opacity: 1;
+  transform: scale(1.015);
 }
 
-.imageLinks:active {
-  border-radius: 50%;
-}
-
-.labelLink {
-  text-decoration: none;
+.overlay-text {
+  position: absolute;
   color: white;
-  font-size: 2vw;
-  transform: translate(0, 1vw)
+  font-size: 24pt;
+  text-shadow: -1px -1px black, 1px 1px black,
+  -1px 1px black, 1px -1px black;
+  top: 50%;
+  left: 50%;
 }
 
-.labelLink:hover {
-  text-decoration: none;
-  color: wheat;
+/** Footer **/
+.foot {
+  height: fit-content;
+  background-color: #5F8575;
+  box-shadow: 0 0 10px 0 black;
+  position: relative;
+  text-align: right;
 }
 
-.labelLink:visited {
-  text-decoration: none;
-  color: white;
+.foot-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #001009;
+  font-size: 6pt;
+  padding: 2px;
 }
 
-.labelLink:active {
-  text-decoration: none;
-  color: goldenrod;
-}
-
+/** Small Screen **/
 @media only screen and (max-width: 1329px) {
   .head-background {
     background-size: auto 855px;

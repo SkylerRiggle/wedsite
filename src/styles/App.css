@@ -59,6 +59,7 @@ a {
 .time-column {
   text-align: left;
   font-size: 2.5vw;
+  line-height: 3vw;
   padding-left: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -70,6 +71,7 @@ a {
 .event-column {
   text-align: right;
   font-size: 2.5vw;
+  line-height: 3vw;
   padding-right: 5%;
   padding-top: 20px;
   padding-bottom: 20px;

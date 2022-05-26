@@ -31,9 +31,8 @@ a {
 
 /** Header **/
 .header {
-  background-image: url('../images/twohands.jpg'), 
-  radial-gradient(rgba(255, 238, 178, 0.05), rgba(255, 238, 178, 0.15)),
-  linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 25, 0, 0.35)),
+  background: black;
+  background: url('../images/twohands.jpg'),
   linear-gradient(transparent, 85%, black);
   background-blend-mode: overlay;
   background-attachment: fixed;

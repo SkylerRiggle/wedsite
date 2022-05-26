@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
 import Flower from '../images/bwflower.png'
+import Sunflower from '../images/sunflower.png'
 
 function Venue() {
   return (

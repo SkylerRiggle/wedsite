@@ -13,7 +13,7 @@ function FAQ() {
         <div className='q-card'>
           <p className='dark'>What foods will be served?</p>
           <p style={{lineHeight:'10pt'}}>-</p>
-          <p style={{padding:'2%'}}>Since the event will be held at 2PM, this should give attendees a chance to eat lunch before the ceremony. Afterward, we will have drinks, a large charcuterie board (finger foods), and cakes.</p>
+          <p style={{padding:'2%'}}>Since the event will be held at 2PM, this should give guests a chance to eat lunch before the ceremony. Afterward, we will have drinks, a large charcuterie board (finger foods), and cakes.</p>
         </div>
 
         <div className='q-card'>
@@ -47,7 +47,7 @@ function FAQ() {
         <div className='q-card'>
           <p className='dark'>What should I wear?</p>
           <p style={{lineHeight:'10pt'}}>-</p>
-          <p style={{padding:'2%'}}>We ask attendees to dress in church clothes for the ceremony and pictures, but once all the pictures (including a group picture with everyone) are taken we will want to play games for the reception! A men's and women's bathroom are at the venue if you'd like to change into more comfortable clothes.</p>
+          <p style={{padding:'2%'}}>We ask guests to dress in church clothes for the ceremony and pictures, but once all the pictures (including a group picture with everyone) are taken we will want to play games for the reception! A men's and women's bathroom are at the venue if you'd like to change into more comfortable clothes.</p>
         </div>
       </div>
 

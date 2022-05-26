@@ -13,7 +13,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div>
+    <div style={{width:'100%', height:'100%', overflow:'hidden'}}>
       <Navbar></Navbar>
       <Header></Header>
       <RSVP></RSVP>

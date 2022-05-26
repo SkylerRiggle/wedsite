@@ -4,19 +4,32 @@ import '../styles/App.css';
 function Schedule() {
   return (
     <div className='solid-background' id='schedule'>
-      <p className='title' style={{fontSize:'32pt'}}>~ Schedule ~</p>
-      <p className='title' style={{fontSize:'32pt'}}>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</p>
+      <div className='light'>
+        <p className='title' style={{fontSize:'4vw', color:'white'}}>~ Schedule ~</p>
+      </div>
 
-      <li>
-        <ul>10:30 AM Wedding Party Rehearsal</ul>
-        <ul>1:30 PM Guest Arrival</ul>
-        <ul>2:00 PM Wedding Ceremony</ul>
-        <ul>2:30 PM Group Pictures</ul>
-        <ul>3:30 PM Speeches & Slideshow</ul>
-        <ul>4:00 PM Cake Cutting</ul>
-        <ul>4:20 PM First Dance</ul>
-        <ul>4:30 PM Cornhole Tournament</ul>
-      </li>
+      <div className='dual-column'>
+      <div className='time-column'>
+        <p>10:30 AM</p>
+        <p className='light'>1:30 PM</p>
+        <p>2:00 PM</p>
+        <p className='light'>2:30 PM</p>
+        <p>3:30 PM</p>
+        <p className='light'>4:00 PM</p>
+        <p>4:20 PM</p>
+        <p className='light'>4:30 PM</p>
+      </div>
+
+      <div className='event-column'>
+        <p>Wedding Party Rehearsal</p>
+        <p className='light'>Guest Arrival</p>
+        <p>Wedding Ceremony</p>
+        <p className='light'>Group Pictures</p>
+        <p>Speeches & Slideshow</p>
+        <p className='light'>Cake Cutting</p>
+        <p>First Dance</p>
+        <p className='light'>Cornhole Tournament</p>
+      </div></div>
     </div>
   );
 }

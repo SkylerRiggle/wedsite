@@ -9,7 +9,8 @@ function Navbar() {
   return (
     <div className='bar'>
         <img src={Signatures} alt="signature" className='icon'/>
-        <p className='title'>Wed-Site</p>
+        <p className='fancy-title' style={{color:'white', paddingLeft:'20px', cursor:'pointer', fontSize:'30pt'}} 
+        onClick={(e) => NavigateTo('header')}>Wed-Site</p>
 
         <ul className='nav-list'>
             <li>

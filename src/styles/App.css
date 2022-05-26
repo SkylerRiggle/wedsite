@@ -8,6 +8,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: rgb(200, 0, 0);
+}
+
 .fancy-title {
   color: black;
   font-family: 'Dancing Script', cursive;
@@ -16,6 +20,7 @@
 
 .dual-column {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -52,9 +57,44 @@
   z-index: -1;
 }
 
+/** Schedule **/
+.time-column {
+  text-align: left;
+  font-size: 2.5vw;
+  padding-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 20%;
+  max-width: 250px;
+  color: white;
+}
+
+.event-column {
+  text-align: right;
+  font-size: 2.5vw;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  max-width: 875px;
+  color: white;
+}
+
+.light {
+  background-color: #425973;
+}
+
+/** FAQ **/
+.q-card {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /** Extra Links **/
 .link-box {
   width: 45%;
+  max-width: 600px;
   padding: 2.5%;
   position: relative;
 }

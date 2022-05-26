@@ -188,7 +188,7 @@ a {
 
 /** Small Screen **/
 @media only screen and (max-width: 1329px) {
-  .head-background {
+  .header {
     background-size: auto 855px;
   }
 }

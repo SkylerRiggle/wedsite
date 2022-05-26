@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4db312d2286c84bb5aac",
-    "url": "/wedsite/static/css/main.f17fb357.chunk.css"
+    "revision": "e84000f707435ca4793d",
+    "url": "/wedsite/static/css/main.899f71a1.chunk.css"
   },
   {
-    "revision": "4db312d2286c84bb5aac",
-    "url": "/wedsite/static/js/main.4db312d2.chunk.js"
+    "revision": "e84000f707435ca4793d",
+    "url": "/wedsite/static/js/main.e84000f7.chunk.js"
   },
   {
     "revision": "2f8eb99d4b0f0d6f3a8b",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/wedsite/static/media/blanket.93caa92d.jpg"
   },
   {
-    "revision": "94ebb2fc42f0ba37d11063584cad675d",
+    "revision": "b8042533651102701572bf82d88de998",
     "url": "/wedsite/index.html"
   }
 ];

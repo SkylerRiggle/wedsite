@@ -10,27 +10,27 @@ function Schedule() {
 
       <div className='dual-column'>
       <div className='time-column'>
-        <p>10:30 AM</p>
-        <p className='light'>1:30 PM</p>
-        <p>2:00 PM</p>
-        <p className='light'>2:30 PM</p>
-        <p>3:30 PM</p>
-        <p className='light'>4:00 PM</p>
-        <p>4:25 PM</p>
-        <p className='light'>4:45 PM</p>
-        <p>5:00 PM</p>
+        <p style={{height:'3vw'}}>10:30 AM</p>
+        <p className='light' style={{height:'3vw'}}>1:30 PM</p>
+        <p style={{height:'3vw'}}>2:00 PM</p>
+        <p className='light' style={{height:'3vw'}}>2:30 PM</p>
+        <p style={{height:'3vw'}}>3:30 PM</p>
+        <p className='light' style={{height:'3vw'}}>4:00 PM</p>
+        <p style={{height:'3vw'}}>4:25 PM</p>
+        <p className='light' style={{height:'3vw'}}>4:45 PM</p>
+        <p style={{height:'3vw'}}>5:00 PM</p>
       </div>
 
       <div className='event-column'>
-        <p>Wedding Party Rehearsal</p>
-        <p className='light'>Guest Arrival</p>
-        <p>Wedding Ceremony</p>
-        <p className='light'>Group Pictures</p>
-        <p>Speeches & Slideshow</p>
-        <p className='light'>First Dance</p>
-        <p>Cake Cutting</p>
-        <p className='light'>Bouquet Toss</p>
-        <p>Cornhole Tournament</p>
+        <p style={{height:'3vw'}}>Wedding Party Rehearsal</p>
+        <p className='light' style={{height:'3vw'}}>Guest Arrival</p>
+        <p style={{height:'3vw'}}>Wedding Ceremony</p>
+        <p className='light' style={{height:'3vw'}}>Group Pictures</p>
+        <p style={{height:'3vw'}}>Speeches & Slideshow</p>
+        <p className='light' style={{height:'3vw'}}>First Dance</p>
+        <p style={{height:'3vw'}}>Cake Cutting</p>
+        <p className='light' style={{height:'3vw'}}>Bouquet Toss</p>
+        <p style={{height:'3vw'}}>Cornhole Tournament</p>
       </div></div>
     </div>
   );

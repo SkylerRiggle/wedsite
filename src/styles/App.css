@@ -112,6 +112,12 @@ a {
   border: 1px solid black;
 }
 
+.address-title {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30pt;
+}
+
 .address-box {
   width: 40%;
   padding-left: 5%;
@@ -163,7 +169,7 @@ a {
 .overlay-text {
   position: absolute;
   color: white;
-  font-size: 24pt;
+  font-size: 30pt;
   text-shadow: -1px -1px black, 1px 1px black,
   -1px 1px black, 1px -1px black;
   top: 50%;
@@ -190,5 +196,17 @@ a {
 @media only screen and (max-width: 1329px) {
   .header {
     background-size: auto 855px;
+  }
+
+  .overlay-text {
+    font-size: 5vw;
+  }
+
+  .address-box {
+    font-size: 2.5vw;
+  }
+
+  .address-title {
+    font-size: 4vw;
   }
 }

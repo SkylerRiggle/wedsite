@@ -15,7 +15,7 @@ function Venue() {
 
       <div className='dual-column'>
         <div className='address-box'>
-          <p className='fancy-title' style={{fontSize:'30pt'}}>The Wedding will be hosted at:</p>
+          <p className='address-title'>The Wedding will be hosted at:</p>
           <br />
           <p>Wintersmith Lodge,</p>
           <p>1621 Wintersmith Dr,</p>

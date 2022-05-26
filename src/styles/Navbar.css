@@ -37,7 +37,7 @@ li:active {
 }
 
 .nav-link {
-  font-size: 12pt;
+  font-size: 2vw;
   font-weight: 500;
   display: flex;
   align-items: center;

@@ -193,10 +193,10 @@ a {
 }
 
 /** Small Screen **/
-@media only screen and (max-width: 1329px) {
+@media only screen and (max-width: 1279px) {
   .header {
-    background-size: auto 650px;
-    height: 600px;
+    background-size: auto 823px;
+    height: 750px;
     background-attachment: scroll;
   }
 
